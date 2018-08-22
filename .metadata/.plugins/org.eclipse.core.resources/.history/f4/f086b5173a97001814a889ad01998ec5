@@ -1,0 +1,28 @@
+package firstApp;
+
+public class singleton {
+	public static void main(String args[]) {
+		
+		Singleton s1= Singleton.getInstance();
+		s1.doThis();
+	}
+
+}
+
+class Singleton {
+	
+	public static Singleton singleton = new Singleton();
+	
+	private Singleton() {
+		
+	}
+	
+	public static Singleton getInstance() {
+		
+		return singleton;
+	}
+	public void doThis() 
+	{
+		System.out.println("doing it");
+	}
+}

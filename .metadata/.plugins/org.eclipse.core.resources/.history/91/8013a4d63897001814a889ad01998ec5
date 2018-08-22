@@ -1,0 +1,25 @@
+package firstApp;
+
+public class newmain {
+
+	public static void main(String args[]) 
+	{
+		
+		
+	}
+}
+class A{
+	int a;
+	A(int a){
+		this.a=a;
+		System.out.println("this is super");
+	}
+}
+class a extends A{
+
+	a(int a) {
+		super(a);
+		// TODO Auto-generated constructor stub
+	}
+	
+}
